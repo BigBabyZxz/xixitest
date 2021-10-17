@@ -1,0 +1,5 @@
+1、埋点调用
+ getApp().sensors.track('mp_trade_remind_result',{
+              page_name: this.data.sceneValue,
+              is_success: true,
+            });
